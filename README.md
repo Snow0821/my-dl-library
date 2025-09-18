@@ -11,10 +11,14 @@ $\hat b = b - \eta \frac{\partial L}{\partial b} $
 # Weight update
 
 ## partial computation
-$\frac{\partial L}{ \partial w} = \frac{\partial (y - \hat y)^2}{\partial w}$ \
-$ = \frac{\partial (y - wx + b)^2}{\partial w}$ \
-$ = 2(y - (wx + b))\frac{\partial (y - wx - b)}{\partial w}$ \
-$ = -2x(y - wx - b)$ \
+$\frac{\partial L}{ \partial w} = \frac{\partial (y - \hat y)^2}{\partial w}$
+
+$ = \frac{\partial (y - wx + b)^2}{\partial w}$
+
+$ = 2(y - (wx + b))\frac{\partial (y - wx - b)}{\partial w}$
+
+$ = -2x(y - wx - b)$
+
 $ = -2x(y - \hat y)$
 
 ## update
@@ -26,8 +30,11 @@ $\hat w = w - 2\eta x (y - \hat y)$
 $\frac {\partial L}{\partial b} = \frac{\partial (y - \hat y)^2}{\partial b}$
 
 $= \frac{\partial (y - (wx + b))}{\partial b}$
-$ = 2(y - (wx + b))\frac{\partial (y - wx - b)}{\partial b}$ \
-$ = -2(y - wx - b)$ \
+
+$ = 2(y - (wx + b))\frac{\partial (y - wx - b)}{\partial b}$
+
+$ = -2(y - wx - b)$
+
 $ = -2(y - \hat y)$
 
 ## update
