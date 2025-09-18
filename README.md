@@ -13,7 +13,7 @@ $\hat b = b - \eta \frac{\partial L}{\partial b} $
 ## partial computation
 $\frac{\partial L}{ \partial w} = \frac{\partial (y - \hat y)^2}{\partial w}$
 
-$ = \frac{\partial (y - wx + b)^2}{\partial w}$
+$\frac{\partial (y - wx + b)^2}{\partial w}$
 
 $ = 2(y - (wx + b))\frac{\partial (y - wx - b)}{\partial w}$
 
