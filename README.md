@@ -23,7 +23,7 @@ $\frac{\partial L}{ \partial w} = \frac{\partial (y - \hat y)^2}{\partial w}$
 = $-2x(y - \hat y)$
 
 ## update
-$\hat w = w - 2\eta x (y - \hat y)$
+$\hat w = w + 2\eta x (y - \hat y)$
 
 # Bias update
 
@@ -39,4 +39,4 @@ $\frac {\partial L}{\partial b} = \frac{\partial (y - \hat y)^2}{\partial b}$
 = $-2(y - \hat y)$
 
 ## update
-$\hat b = b - 2\eta (y - \hat y)$
+$\hat b = b + 2\eta (y - \hat y)$
